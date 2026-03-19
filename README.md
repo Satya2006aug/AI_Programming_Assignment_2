@@ -48,15 +48,4 @@ At higher obstacle densities, a valid path may not exist. The algorithm correctl
 ---
 
 ## Part 3: Dynamic Obstacles
-
-In a dynamic environment, obstacles are not known beforehand and may change during movement. The UGV uses sensors such as cameras or LiDAR to detect obstacles in real time.
-
-Since the initial path may become invalid, the UGV continuously updates its path while moving. When a new obstacle is detected, a new path is computed from the current position to the goal.
-
-This can be done using replanning methods such as Repeated A* or D*, which update the path efficiently.
-
----
-
-## Installation
-
-Create a virtual environment (recommended):
+Check the pdf document for solution. 
